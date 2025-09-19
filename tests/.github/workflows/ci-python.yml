@@ -1,3 +1,7 @@
+name: Run tests
+
+run: PYTHONPATH=. pytest -q --maxfail=1
+
 name: Python Selenium Tests
 
 on: [push, pull_request]
